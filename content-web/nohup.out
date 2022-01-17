@@ -1,0 +1,18 @@
+
+> content-web@0.0.0 start /home/adminfabmedical/Fabmedical/content-web
+> ng serve --proxy-config proxy.conf.json
+
+(node:14051) [DEP0131] DeprecationWarning: The legacy HTTP parser is deprecated.
+
+chunk {main} main.js, main.js.map (main) 41 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 248 kB [initial] [rendered]
+chunk {polyfills-es5} polyfills-es5.js, polyfills-es5.js.map (polyfills-es5) 541 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 6.15 kB [entry] [rendered]
+chunk {styles} styles.js, styles.js.map (styles) 12.5 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 4.68 MB [initial] [rendered]
+Date: 2021-11-19T06:09:48.214Z - Hash: 33b0cd7c04c56be3d142 - Time: 23015ms
+
+WARNING in /home/adminfabmedical/Fabmedical/content-web/src/environments/environment.prod.ts is part of the TypeScript compilation but it's unused.
+Add only entry points to the 'files' or 'include' properties in your tsconfig.
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+: Compiled successfully.

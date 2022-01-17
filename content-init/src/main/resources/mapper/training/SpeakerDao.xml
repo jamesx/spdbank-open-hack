@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.chinasofti.training.dao.SpeakerDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.chinasofti.training.entity.SpeakerEntity" id="speakerMap">
+        <result property="id" column="id"/>
+        <result property="sessions" column="sessions"/>
+        <result property="sessionscodes" column="sessionscodes"/>
+        <result property="tracks" column="tracks"/>
+        <result property="v" column="__v"/>
+        <result property="bio" column="bio"/>
+        <result property="company" column="company"/>
+        <result property="first" column="first"/>
+        <result property="hidden" column="hidden"/>
+        <result property="inshow" column="inShow"/>
+        <result property="last" column="last"/>
+        <result property="photo" column="photo"/>
+        <result property="speakerid" column="speakerID"/>
+        <result property="title" column="title"/>
+    </resultMap>
+
+
+</mapper>
