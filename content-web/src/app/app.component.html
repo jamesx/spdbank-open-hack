@@ -14,7 +14,6 @@
         <li class=""><a *ngIf="loginDisplay" (click)="logout()">Logout</a></li>
         <li class=""><a [routerLink]="['/speakers']" routerLinkActive="router-link-active">Speakers</a></li>
         <li class=""><a [routerLink]="['/sessions']" routerLinkActive="router-link-active">Sessions</a></li>
-        <li class=""><a [routerLink]="['/stats']" routerLinkActive="router-link-active">Stats</a></li>
   </ul>
     </aside>
     <div class="contain-to-grid sticky show-for-small-up fixed">
@@ -39,7 +38,6 @@
             <li class=""><a style="color: cadetblue;" *ngIf="loginDisplay" (click)="logout()">Logout</a></li>
             <li class=""><a [routerLink]="['/speakers']" routerLinkActive="router-link-active">Speakers</a></li>
             <li class=""><a [routerLink]="['/sessions']" routerLinkActive="router-link-active">Sessions</a></li>
-            <li class=""><a [routerLink]="['/stats']" routerLinkActive="router-link-active">Stats</a></li>
           </ul>
         </section>
       </nav>
