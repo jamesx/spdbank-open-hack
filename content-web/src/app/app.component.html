@@ -4,6 +4,14 @@
     <!-- Off Canvas Menu -->
     <aside class="right-off-canvas-menu">
       <ul class="off-canvas-list">
+
+
+        <!-- <button  *ngIf="!loginDisplay" (click)="login()">Login</button>
+        <button  *ngIf="loginDisplay" (click)="logout()">Logout</button> -->
+
+
+        <li class=""><a *ngIf="!loginDisplay" (click)="login()">Login</a></li>
+        <li class=""><a *ngIf="loginDisplay" (click)="logout()">Logout</a></li>
         <li class=""><a [routerLink]="['/speakers']" routerLinkActive="router-link-active">Speakers</a></li>
         <li class=""><a [routerLink]="['/sessions']" routerLinkActive="router-link-active">Sessions</a></li>
         <li class=""><a [routerLink]="['/stats']" routerLinkActive="router-link-active">Stats</a></li>
@@ -23,6 +31,12 @@
             <a class="right-off-canvas-toggle menu-icon" href="#"><span class=""></span></a>
           </section>
           <ul id="desktop-nav" class="right buttons show-for-large-up">
+            <!-- <button  *ngIf="!loginDisplay" (click)="login()">Login</button>
+            <button  *ngIf="loginDisplay" (click)="logout()">Logout</button> -->
+
+            
+            <li class=""><a style="color: cadetblue;" *ngIf="!loginDisplay" (click)="login()">Login</a></li>
+            <li class=""><a style="color: cadetblue;" *ngIf="loginDisplay" (click)="logout()">Logout</a></li>
             <li class=""><a [routerLink]="['/speakers']" routerLinkActive="router-link-active">Speakers</a></li>
             <li class=""><a [routerLink]="['/sessions']" routerLinkActive="router-link-active">Sessions</a></li>
             <li class=""><a [routerLink]="['/stats']" routerLinkActive="router-link-active">Stats</a></li>
