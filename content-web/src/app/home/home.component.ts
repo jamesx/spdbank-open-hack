@@ -21,9 +21,7 @@ export class HomeComponent implements OnInit {
       .subscribe((result: EventMessage) => {
         console.log(result);
         const payload = result.payload as AuthenticationResult;
-      //  console.log('1111: '+this.authService.instance.getAllAccounts().length)
         this.authService.instance.setActiveAccount(payload.account);
-      //  console.log('2222: '+this.authService.instance.getAllAccounts().length)
       });
 
       this.setLoginDisplay();
