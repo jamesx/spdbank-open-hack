@@ -1,8 +1,8 @@
 spring:
   datasource:
-    username: ${MYSQL_USER:root}
-    password: ${MYSQL_PWD:root}
-    url: jdbc:mysql://${MYSQL_HOST:localhost}:${MYSQL_PORT:3306}/fabmedical?characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai
+    username: fabmedical@fabmedical-xp
+    password: admin@admin123
+    url: jdbc:mysql://fabmedical-xp.mysql.database.azure.com:3306/fabmedical?characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai
     driver-class-name: com.mysql.cj.jdbc.Driver
 
 
