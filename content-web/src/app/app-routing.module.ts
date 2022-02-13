@@ -4,21 +4,13 @@ import { HomeComponent } from './home/home.component';
 import { SpeakersComponent } from './speakers/speakers.component';
 import { SessionsComponent } from './sessions/sessions.component';
 import { StatsComponent } from './stats/stats.component';
-import { MsalGuard } from '@azure/msal-angular';
 
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'home', component: HomeComponent },
-  { path: 'speakers', component: SpeakersComponent ,    
-  canActivate: [
-     MsalGuard
-  ]},
-  { path: 'sessions', component: SessionsComponent,
-    canActivate: [
-      MsalGuard
-    ] 
-},
+  { path: 'speakers', component: SpeakersComponent },
+  { path: 'sessions', component: SessionsComponent },
   { path: 'stats', component: StatsComponent  }
 ];
 
